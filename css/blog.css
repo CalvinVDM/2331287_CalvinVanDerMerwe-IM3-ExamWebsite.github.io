@@ -1,0 +1,57 @@
+
+body{
+    justify-content: center;
+    padding-left: 10px;
+    padding-top: 80px;
+    background-color: black;
+
+}
+  
+a{
+  text-decoration: none;
+}
+.card {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 90px 90px 80px;
+    grid-template-areas: "image" "text" "stats";
+  
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(211, 126, 7, 0.9);
+    font-family: roboto;
+    
+  
+    transition: 0.5s ease;
+   
+    margin:30px;
+  }
+ 
+  
+  .card-text {
+    grid-area: text;
+    margin: 100px;
+  }
+
+  .card-text p {
+    color: grey;
+    font-size:15px;
+    font-weight: 3250;
+  }
+  .card-text h2 {
+    margin-top:0px;
+    font-size:28px;
+  }
+  
+  button{
+    padding: 15px;
+    color: rgb(204, 66, 206);
+    font: 1em sans-serif;
+    cursor: pointer;
+    transition: 0.5s ease;
+  }
+
+  button:hover{
+    background-color: purple;
+    color: black;
+  }
